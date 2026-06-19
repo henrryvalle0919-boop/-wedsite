@@ -1,0 +1,16 @@
+{
+  "name": "Darwin Tree Service Pro",
+  "short_name": "Tree Service",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2e7d32",
+  "description": "Top-rated tree removal, trimming, stump grinding & emergency tree service in Conroe TX.",
+  "icons": [
+    {
+      "src": "imagenes/logo-sarmiento.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

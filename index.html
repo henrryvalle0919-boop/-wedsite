@@ -72,6 +72,7 @@
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="styles.css" />
+<link rel="manifest" href="manifest.json">
 </head>
 <body>
 
@@ -224,13 +225,26 @@
             From technical removals to full property cleanups, we handle the heavy work so you don’t have to.
         </p>
 
-        <div class="gallery">
-            <img class="work-img" src="imagenes/work1.jpg" alt="Tree climber at work">
-            <img class="work-img" src="imagenes/work2.jpg" alt="Yard with cut branches and equipment">
-            <img class="work-img" src="imagenes/work3.jpg" alt="Partially trimmed tree">
-            <img class="work-img" src="imagenes/work4.jpg" alt="Loader lifting branches into truck">
-        </div>
-    </section>
+      <div class="gallery">
+    <img class="work-img" src="imagenes/tree-removal-conroe.jpg" 
+         alt="Tree removal service in Conroe TX">
+
+    <img class="work-img" src="imagenes/tree-service-crew-conroe.jpg" 
+         alt="Professional tree service crew in Conroe Texas">
+
+    <img class="work-img" src="imagenes/tree-trimming-conroe.jpg" 
+         alt="Tree trimming and pruning in Conroe TX">
+
+    <img class="work-img" src="imagenes/stump-grinding-conroe.jpg" 
+         alt="Stump grinding and land clearing service Conroe TX">
+</div>
+</section>
+
+<section id="areas">
+  <h2>Areas We Serve</h2>
+  <p>We proudly serve Conroe TX, Willis TX, The Woodlands TX, Spring TX, Montgomery TX, and surrounding communities.</p>
+</section>
+
 
     <!-- REVIEWS -->
     <section id="reviews" class="reviews">
@@ -282,7 +296,18 @@
             </div>
         </div>
     </section>
+<section id="faq">
+  <h2>Frequently Asked Questions</h2>
 
+  <h3>How much does tree removal cost in Conroe TX?</h3>
+  <p>Prices vary depending on tree size and location. Call us for a free estimate.</p>
+
+  <h3>Do you offer emergency tree service?</h3>
+  <p>Yes, we provide 24/7 emergency tree service in Conroe and nearby areas.</p>
+
+  <h3>Are you insured?</h3>
+  <p>Yes, we are fully insured for your protection.</p>
+</section>
     <!-- CONTACT -->
     <section id="contact" class="contact-section">
         <h2>Contact & Service Area</h2>
@@ -323,6 +348,12 @@
     </footer>
 
     <script src="script.js"></script>
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("/service-worker.js");
+}
+</script>
+
 </body>
 </html>
 
